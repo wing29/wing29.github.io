@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>A Responsive Email Template</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<style type="text/css">
+    /* CLIENT-SPECIFIC STYLES */
+    #outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
+    .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+    .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
+    body, table, td, a{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+    table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+    img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+    /* RESET STYLES */
+    body{margin:0; padding:0;}
+    img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+    table{border-collapse:collapse !important;}
+    body{height:100% !important; margin:0; padding:0; width:100% !important;}
+
+    /* iOS BLUE LINKS */
+    .appleBody a {color:#68440a; text-decoration: none;}
+    .appleFooter a {color:#999999; text-decoration: none;}
+
+    /* MOBILE STYLES */
+    @media screen and (max-width: 525px) {
+
+        /* ALLOWS FOR FLUID TABLES */
+        table[class="wrapper"]{
+          width:100% !important;
+        }
+
+        /* ADJUSTS LAYOUT OF LOGO IMAGE */
+        td[class="logo"]{
+          text-align: left;
+          padding: 20px 0 20px 0 !important;
+        }
+
+        td[class="logo"] img{
+          margin:0 auto!important;
+        }
+
+        /* USE THESE CLASSES TO HIDE CONTENT ON MOBILE */
+        td[class="mobile-hide"]{
+          display:none;}
+
+        img[class="mobile-hide"]{
+          display: none !important;
+        }
+
+        img[class="img-max"]{
+          max-width: 100% !important;
+          width: 100% !important;
+          height:auto !important;
+        }
+
+        /* FULL-WIDTH TABLES */
+        table[class="responsive-table"]{
+          width:100%!important;
+        }
+
+        /* UTILITY CLASSES FOR ADJUSTING PADDING ON MOBILE */
+        td[class="padding"]{
+          padding: 10px 5% 15px 5% !important;
+        }
+
+        td[class="padding-copy"]{
+          padding: 5px 5% 5px 5% !important;
+          text-align: center;
+        }
+
+        td[class="padding-meta"]{
+          padding: 30px 5% 0px 5% !important;
+          text-align: center;
+        }
+
+        td[class="no-pad"]{
+          padding: 0 0 20px 0 !important;
+        }
+
+        td[class="no-padding"]{
+          padding: 0 !important;
+        }
+
+        td[class="section-padding"]{
+          padding: 10px 15px 10px 15px !important;
+        }
+
+        td[class="section-padding-bottom-image"]{
+          padding: 50px 15px 0 15px !important;
+        }
+
+        /* ADJUST BUTTONS ON MOBILE */
+        td[class="mobile-wrapper"]{
+            padding: 10px 5% 15px 5% !important;
+        }
+
+        table[class="mobile-button-container"]{
+            margin:0 auto;
+            width:100% !important;
+        }
+
+        a[class="mobile-button"]{
+            width:80% !important;
+            padding: 15px !important;
+            border: 0 !important;
+            font-size: 16px !important;
+        }
+
+    }
+</style>
+</head>
+<body style="margin: 0; padding: 0;">
+
+<!-- HEADER -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td bgcolor="#333333">
+            <!-- HIDDEN PREHEADER TEXT -->
+            <div style="display: none; font-size: 1px; color: #fefefe; line-height: 1px; font-family: Helvetica, Arial, sans-serif; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">
+                2015 Talent Trends Report for Small Businesses
+            </div>
+        </td>
+    </tr>
+</table>
+
+<!-- ONE COLUMN SECTION -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td bgcolor="#ffffff" align="center" style="padding: 30px 15px 30px 15px;" class="section-padding">
+            <table border="0" cellpadding="0" cellspacing="0" width="500" class="responsive-table">
+                <tr>
+                    <td>
+                        <!-- HERO IMAGE -->
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <!-- header start -->
+                <tr>
+                    <td>
+                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                     <td class="mobile-hide" width="20%" align="left">
+                         <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                             <tr>
+                                 <td align="left" width="25" style="padding: 2px 5px 0 0;"><img src="http://pages.litmus.com/l/31032/2015-12-04/5j9h1b/31032/77617/twiitah_icon.png" width="15" height="15" style="display: block; border: 0px;" /></td>
+                                 <td align="left" width="150">
+                                     <a href="#" target="_blank" style="color: #7f8c8d; font-size: 12px; line-height: 12px; text-decoration: none; font-family: Helvetica, Arial, sans-serif;">Tweet</a>
+                                 </td>
+                             </tr>
+                         </table>
+                     </td>
+                     <td class="mobile-hide" width="50%">&nbsp;</td>
+                     <td class="mobile-hide" width="30%" align="right">
+                         <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                             <tr>
+                                 <td align="left" valign="bottom" width="25" style="padding: 0px 8px 0 40px;"><img src="images/webversion.png" width="25" height="14" style="display: block; border: 0px;" /></td>
+                                 <td align="left" valign="top" width="80">
+                                     <a href="#" target="_blank" style="color: #7f8c8d; font-size: 12px; line-height: 12px; text-decoration: none; font-family: Helvetica, Arial, sans-serif;">View online</a>
+                                 </td>
+                             </tr>
+                         </table>
+                     </td>
+                   </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                 <td style="padding: 20px 0;" align="center" class="logo">
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                      <tr>
+                          <td align="center"><a href="https://business.linkedin.com/talent-solutions" target="_blank"><img src="images/In-2C-54px-TM.png" width="50" alt="LinkedIn" style="display: block; border: 0px; color: #353a3e; font-family: Arial, sans-serif;"/></a></td>
+                      </tr>
+                  </table>
+                 </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td>
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td class="padding-copy">
+                                                <a href="#" target="_blank">
+                                                    <img src="images/bg-banner.jpg" width="100%" border="0" alt="Talent Report" style="display: block; color: #666666;  font-family: Helvetica, arial, sans-serif; font-size: 16px;" class="img-max">
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" style="font-size: 26px; font-family: Helvetica, Arial, sans-serif; color: #353a3e; padding-top: 20px; font-weight: bold;" class="padding2" id="font-weight-normal">Talent Trends Report for Small to Mid-sized Businesses</td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" style="padding: 10px 0 0 0; font-size: 16px; line-height: 24px; font-family: Helvetica, Arial, sans-serif; color: #7f8c8d;" class="padding2">Learn what drives a candidate to join your company</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding: 15px;" align="center" class="padding">
+                                                <table border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                                    <tr>
+                                                        <td align="center">
+                                                            <!-- BULLETPROOF BUTTON -->
+                                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                                                <tr>
+                                                                    <td align="center" style="padding: 0;" class="padding-copy">
+                                                                        <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
+                                                                            <tr>
+                                                                                <td align="center"><a href="#" target="_blank" style="font-size: 15px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; color: #434649; text-decoration: none; background-color: #EFB920; border-top: 10px solid #EFB920; border-bottom: 10px solid #EFB920; border-left: 20px solid #EFB920; border-right: 20px solid #EFB920; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;" class="mobile-button">Download Report</a></td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td bgcolor="#ffffff" align="center" class="section-padding">
+                        <table border="0" cellpadding="0" cellspacing="0" width="500" class="responsive-table">
+                            <tr>
+                                <td>
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td>
+                                                <!-- COPY -->
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td align="left" style="padding: 10px 0 0 0; font-size: 16px; line-height: 21px; font-family: Helvetica, Arial, sans-serif; color: #666666;" >Hi Wendy,</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" style="padding: 10px 0 0 0; font-size: 16px; line-height: 21px; font-family: Helvetica, Arial, sans-serif; color: #666666;" >Growing small to mid-sized businesses (SMBs) use talent trend information to learn how job seekers and candidates think when evaluating job opportunities at companies. </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" style="padding: 10px 0 0 0; font-size: 16px; line-height: 21px; font-family: Helvetica, Arial, sans-serif; color: #666666;" >Download the <a href="#" style="color: #0088cc; font-size: 16px;" class="link-hover" target="_blank">Talent Trends Report for Small to Mid-sized Businesses</a > for a wealth of information, including: </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>  
+                <tr>
+                    <td class="padding2" style="padding: 15px 0 10px 0;">
+                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                                <td align="left" valign="top" style="border-radius: 3px;" bgcolor="#ffffff" class="top10">
+                                    <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                        <tr>
+                                            <td align="center" bgcolor="#00A0DC" style="padding: 5px 5px; border-radius: 3px 0 0 3px; color: #ffffff; font-family: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 24px;" width="15">
+                                                &#8226
+                                            </td>
+                                            <td style="padding: 3px 8px; font-size: 16px; line-height: 21px; font-family: Helvetica, Arial, sans-serif; color: #666666; border: 1px solid #eeeeee; border-radius: 0 3px 3px 0;" align="left" >
+                                                The top 10 things candidates consider before joining
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>  
+                </tr>
+                <tr>
+                    <td class="padding2" style="padding: 0 0 10px 0;">
+                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                                <td align="left" valign="top" style="border-radius: 3px;" bgcolor="#ffffff" class="top10">
+                                    <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                        <tr>
+                                            <td align="center" bgcolor="#00A0DC" style="padding: 5px 5px; border-radius: 3px 0 0 3px; color: #ffffff; font-family: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 20px;" width="15">
+                                                  &#8226
+                                            </td>
+                                            <td style="padding: 3px 8px; font-size: 16px; line-height: 21px; font-family: Helvetica, Arial, sans-serif; color: #666666; border: 1px solid #eeeeee; border-radius: 0 3px 3px 0;" align="left" >
+                                                Effective ways to approach candidates
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>  
+                </tr>
+                <tr>
+                    <td class="padding2" style="padding: 0 0 10px 0;">
+                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                                <td align="left" valign="top" style="border-radius: 3px;" bgcolor="#ffffff" class="top10">
+                                    <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                        <tr>
+                                            <td align="center" bgcolor="#00A0DC" style="padding: 5px 5px; border-radius: 3px 0 0 3px; color: #ffffff; font-family: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 20px;" width="15">
+                                                  &#8226
+                                            </td>
+                                            <td style="padding: 3px 8px; font-size: 16px; line-height: 24px; font-family: Helvetica, Arial, sans-serif; color: #666666; border: 1px solid #eeeeee; border-radius: 0 3px 3px 0;" align="left">
+                                                Tactics to influence candidate to accept offer</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>  
+                </tr>
+                <tr>
+                 <td align="center" style="padding: 10px 0 0 0; font-size: 15px; font-size: 16px; line-height: 21px; font-family: Helvetica, Arial, sans-serif; color: #00A0DC;" class="padding2">
+                  <a href="#" style="color: #0088cc; font-size: 16px;" class="link-hover" target="_blank">Download today &rarr;</a>
+                 </td>
+                </tr>
+
+                <tr>
+                 <td align="left" style="padding: 20px 0 10px 0; font-size: 15px; font-size: 16px; line-height: 20px; font-family: Helvetica, Arial, sans-serif; color: #595C5F;" class="padding2"><span style="font-size: 15px; font-size: 16px; font-weight: bold; line-height: 20px; font-family: Helvetica, Arial, sans-serif; color: #595C5F;">Want to learn more?</span > <a href="#" style="color: #0088cc; font-size: 16px;" class="link-hover" target="_blank">Join us </a>on Feb 23 for a live webcast on creative hiring tactics along the candidate journey.</td>
+                </tr>
+               
+
+                
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <!-- top header end -->
+            </table>
+        </td>
+    </tr>
+</table>
+
+<!-- COMPACT ARTICLE SECTION -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td bgcolor="#9BDAF3" align="center" style="padding: 45px 15px 45px 15px;" class="section-padding">
+            <table border="0" cellpadding="0" cellspacing="0" width="500" style="padding:0 0 20px 0;" class="responsive-table">
+                <!-- TITLE -->
+                <tr>
+                    <td align="center" style="padding: 10px 0 20px 0; font-size: 15px; line-height: 20px; font-family: Helvetica, Arial, sans-serif; color: #434649;" colspan="2">UPCOMING WEBCAST</td>
+                </tr>
+                <tr>
+                    <td align="center" valign="top" style="font-size:0;">
+                      <!--[if (gte mso 9)|(IE)]>
+                        <table align="center" border="0" cellspacing="0" cellpadding="0" width="500">
+                        <tr>
+                        <td align="left" valign="top" width="100">
+                        <![endif]-->
+                        <div style="display:inline-block; max-width: 100px; vertical-align:top; width:100%;">
+
+                            <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 250px;" class="responsive-table">
+                                <tr>
+                                    <td align="left" valign="top" style="padding: 0px 0 15px 0;">
+
+                                        <img src="images/player.png" width="100" height="100"  style="display: block; border: 0px; color: #353a3e; font-size: 60px; font-family: Arial, sans-serif;" alt="player icon" class="img-max"/>
+
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        <td width="25" style="font-size: 1px;">&nbsp;</td>
+                        <td align="right" valign="top" width="375">
+                        <![endif]-->
+                        <div style="display:inline-block; max-width: 380px; vertical-align:top; width:100%;" class="responsive-table">
+                            <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" class="responsive-table">
+                                <tr>
+                                <td align="left" style="padding: 10px 0 0 25px; font-size: 18px; line-height: 22px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #333333;" class="padding-copy">Most Creative Hiring Tactics</td>
+                            </tr>
+                            <tr>
+                                 <td align="left" style="padding: 0 0 10px 25px; font-size: 15px; line-height: 20px; font-family: Helvetica, Arial, sans-serif; color: #666666;" class="padding-copy">Thursday, February 24, 2016 @ 11am PT / 2pm ET</td>
+                            </tr>
+                            
+                            <tr>
+                                <td style="padding: 0 0 15px 25px;" align="left" class="padding">
+                                    <table border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                        <tr>
+                                            <td align="center">
+                                                <!-- BULLETPROOF BUTTON -->
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                                    <tr>
+                                                        <td align="center" style="padding: 0;" class="padding-copy">
+                                                            <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
+                                                                <tr>
+                                                                    <td align="center"><a href="#" target="_blank" style="font-size: 15px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; color: #434649; text-decoration: none; background-color: #efb921; border-top: 10px solid #efb921; border-bottom: 10px solid #efb921; border-left: 20px solid #efb921; border-right: 20px solid #efb921; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;" class="mobile-button">Register Now</a></td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left" style="padding: 0 0 5px 25px; font-size: 13px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #737679;" class="padding-copy"> Can’t make it? Register to receive a link to the recorded session.</td>
+                            </tr>
+                            </table>
+                        </div>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                    </td>
+                    
+                </tr>
+               
+            </table>
+        </td>
+    </tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td bgcolor="#CFEDFB" align="center" style="padding: 45px 15px 45px 15px;" class="section-padding">
+            <table border="0" cellpadding="0" cellspacing="0" width="500" style="padding:0 0 20px 0;" class="responsive-table">
+                <!-- TITLE -->
+                <tr>
+                    <td align="center" style="padding: 10px 0 20px 0; font-size: 15px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #434649;;" colspan="2">MORE RESOURCES</td>
+                </tr>
+                <tr>
+                    <td align="center" valign="top" style="font-size:0; ">
+                      <!--[if (gte mso 9)|(IE)]>
+                        <table align="center" border="0" cellspacing="0" cellpadding="0" width="500">
+                        <tr>
+                        <td align="left" valign="top" width="100">
+                        <![endif]-->
+                        <div style="display:inline-block; max-width: 100px; vertical-align:top; width:100%;">
+
+                            <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 250px;" class="responsive-table">
+                                <tr>
+                                    <td align="center" valign="top" style="padding: 0px 0 15px 0;">
+
+                                        <img src="images/report.png" alt="Talent Trends Report" width="105" height="105" border="0" style="display: block; font-family: Arial; color: #666666; font-size: 14px; width: 105px; height: 105px;">
+
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        <td width="25" style="font-size: 1px;">&nbsp;</td>
+                        <td align="right" valign="top" width="375">
+                        <![endif]-->
+                        <div style="display:inline-block; max-width: 380px; vertical-align:top; width:100%;" class="responsive-table">
+                            <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" class="responsive-table">
+                              <tr>
+                                <td align="left" style="padding: 10px 0 5px 25px; font-size: 18px; line-height: 22px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #333333;" class="padding-copy">Industry Talent Report</td>
+                            </tr>
+                            <tr>
+                                 <td align="left" style="padding: 0 0 10px 25px; font-size: 15px; line-height: 20px; font-family: Helvetica, Arial, sans-serif; color: #666666;" class="padding-copy">Get a custom report on your company’s industry</td>
+                            </tr>
+                            
+                            <tr>
+                                <td style="padding: 0 0 15px 25px;" align="left" class="padding">
+                                    <table border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                        <tr>
+                                            <td align="center">
+                                                <!-- BULLETPROOF BUTTON -->
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                                    <tr>
+                                                        <td align="center" style="padding: 0;" class="padding-copy">
+                                                            <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
+                                                                <tr>
+                                                                    <td align="center"><a  target="_blank" style="font-size: 15px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #737679; text-decoration: none; background-color: #FDFCFC; border-top: 10px solid #FDFCFC; border-bottom: 10px solid #FDFCFC; border-left: 20px solid #FDFCFC; border-right: 20px solid #FDFCFC; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;" class="mobile-button">Coming Next Week</a></td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                          </table>
+                        </div>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" valign="top" style="font-size:0; padding-top:25px;">
+                      <!--[if (gte mso 9)|(IE)]>
+                        <table align="center" border="0" cellspacing="0" cellpadding="0" width="500">
+                        <tr>
+                        <td align="left" valign="top" width="100">
+                        <![endif]-->
+                        <div style="display:inline-block; max-width: 100px; vertical-align:top; width:100%;">
+
+                            <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 250px;" class="responsive-table">
+                                <tr>
+                                    <td align="center" valign="top" style="padding: 10px 0 15px 0;">
+
+                                        <img src="images/ebook.png" width="100" height="100"  style="display: block; border: 0px; color: #353a3e; font-size: 60px; font-family: Arial, sans-serif;" alt="1" class="img-max"/>
+
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        <td width="25" style="font-size: 1px;">&nbsp;</td>
+                        <td align="right" valign="top" width="375">
+                        <![endif]-->
+                        <div style="display:inline-block; max-width: 380px; vertical-align:top; width:100%;" class="responsive-table">
+                            <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" class="responsive-table">
+                              <tr>
+                                <td align="left" style="padding: 10px 0 5px 25px; font-size: 18px; line-height: 22px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #333333;" class="padding-copy">A Workbook: Recruiting Is A Candidate Journey</td>
+                              </tr>
+                            <tr>
+                                 <td align="left" style="padding: 0 0 10px 25px; font-size: 15px; line-height: 20px; font-family: Helvetica, Arial, sans-serif; color: #666666;" class="padding-copy">Map recruiting ideas to each candidate journey stage</td>
+                            </tr>
+                            
+                            <tr>
+                                <td style="padding: 0 0 15px 25px;" align="left" class="padding">
+                                    <table border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                        <tr>
+                                            <td align="center">
+                                                <!-- BULLETPROOF BUTTON -->
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                                    <tr>
+                                                        <td align="center" style="padding: 0;" class="padding-copy">
+                                                            <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
+                                                                <tr>
+                                                                    <td align="center"><a  target="_blank" style="font-size: 15px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #737679; text-decoration: none; background-color: #FDFCFC; border-top: 10px solid #FDFCFC; border-bottom: 10px solid #FDFCFC; border-left: 20px solid #FDFCFC; border-right: 20px solid #FDFCFC; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;" class="mobile-button">Coming Soon</a></td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                          </table>
+                        </div>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td bgcolor="#ffffff" align="center" style="padding: 45px 15px 45px 15px;" class="section-padding">
+            <table border="0" cellpadding="0" cellspacing="0" width="500" style="padding:0 0 20px 0;" class="responsive-table">
+                <!-- TITLE -->
+                <tr>
+                    <td align="center" valign="top" style="font-size:0;">
+                      <!--[if (gte mso 9)|(IE)]>
+                        <table align="center" border="0" cellspacing="0" cellpadding="0" width="500">
+                        <tr>
+                        <td align="left" valign="top" width="100">
+                        <![endif]-->
+                        <div style="display:inline-block; max-width: 100px; vertical-align:top; width:100%;">
+
+                            <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 250px;" class="responsive-table">
+                                <tr>
+                                    <td align="left" valign="top" style="padding: 10px 0 15px 0;">
+
+                                        <img src="images/avatar-suzanne.png" width="100" height="100"  style="display: block; border: 0px; color: #353a3e; font-size: 60px; font-family: Arial, sans-serif;" alt="1" class="img-max"/>
+
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        <td width="25" style="font-size: 1px;">&nbsp;</td>
+                        <td align="right" valign="top" width="375">
+                        <![endif]-->
+                        <div style="display:inline-block; max-width: 380px; vertical-align:top; width:100%;" class="responsive-table">
+                            <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" class="responsive-table">
+                                <tr>
+                                <td align="left" style="padding: 10px 0 5px 25px; font-size: 22px; line-height: 30.8px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #333333;" class="padding-copy">Happy hiring!</td>
+                            </tr>
+                            <tr>
+                                 <td align="left" style="padding: 0 0 10px 25px; font-size: 15px; line-height: 22px; font-family: Helvetica, Arial, sans-serif; color: #666666;" class="padding-copy">
+                                  Suzanne Tran<br>
+                                  Sr. Marketing Manager <br>
+                                  LinkedIn Talent Solutions</td>
+                            </tr>
+                            </table>
+                        </div>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                    </td>
+                    
+                </tr>
+               
+            </table>
+        </td>
+    </tr>
+</table>
+
+<!-- FOOTER -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td bgcolor="#eeeeee" align="center" style="padding: 25px 15px 25px 15px;">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="500">
+            <tr>
+            <td align="center" valign="top" width="500">
+            <![endif]-->
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                <tr>
+                    <td style="padding:0;" align="center">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                            <tr>
+                                <td style="padding: 0;" align="center">
+                                    <table width="500" border="0" cellspacing="0" cellpadding="0" align="center" class="responsive-table">
+                                        <tr>
+                                           <td>
+                                             <table width="300" border="0" cellspacing="0" cellpadding="0" align="left" class="responsive-table">
+                                              <tr>
+                                                <td width="175" valign="middle" class="mobile-hide"><a href="https://business.linkedin.com/talent-solutions"><img alt="Litmus" src="images/logo.png" width="212" height="21" style="display: block; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #ffffff; font-size: 20px;" border="0"></a></td>
+                                              </tr>
+                                              <tr>
+                                                <td  align="left" style="padding: 10px 0; font-size: 14px; line-height: 19px; font-family: Helvetica, Arial, sans-serif; color: #909090;" class="padding-copy">
+                                                  LinkedIn Talent Solutions will help you find, attract, and hire top candidates. Learn about Recruiter, Job Posts, and more.
+                                                </td>
+                                              </tr>
+                                             </table>
+
+                                             <table width="200" border="0" cellspacing="0" cellpadding="0" align="left" class="responsive-table">
+                                               <tr>
+                                                <td style="padding: 20px 0 0px 0;" align="right" class="padding">
+                                                  <table border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                                      <tr>
+                                                          <td align="center">
+                                                              <!-- BULLETPROOF BUTTON -->
+                                                              <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                                                  <tr>
+                                                                      <td align="center" style="padding: 0;" class="padding-copy">
+                                                                          <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
+                                                                              <tr>
+                                                                                  <td align="center"><a href="#" target="_blank" style="font-size: 15px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #434649; text-decoration: none; background-color: #efb921; border-top: 10px solid #efb921; border-bottom: 10px solid #efb921; border-left: 20px solid #efb921; border-right: 20px solid #efb921; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;" class="mobile-button">Request Free Demo</a></td>
+                                                                              </tr>
+                                                                              <tr>
+                                                                                <td align="center" style="padding: 10px 0; font-size: 15px; line-height: 21px; font-family: Helvetica, Arial, sans-serif; color: #909090;" class="padding-copy">
+                                                                                  1-855-655-5653 </td>
+                                                                              </tr>
+                                                                          </table>
+                                                                      </td>
+                                                                  </tr>
+                                                              </table>
+                                                          </td>
+                                                      </tr>
+                                                  </table>
+                                                </td>
+                                              </tr>   
+                                             </table>
+                                           </td>   
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
